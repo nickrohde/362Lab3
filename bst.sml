@@ -143,7 +143,3 @@ fun subtree(Empty, min, max) = Empty
 			Node(subtree(L, min, max), subtree(R, min, max), k, v);
 
 
-
-
-
-
